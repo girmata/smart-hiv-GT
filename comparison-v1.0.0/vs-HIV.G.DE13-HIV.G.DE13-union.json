@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-1040",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-1040",
+  "name" : "UnionHIVGDE13AndHIVGDE13",
+  "title" : "Union of HIV viral load specimen type ValueSet And HIV viral load specimen type ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.G.DE14",
+        "display" : "Liquid plasma specimen for viral load testing"
+      },
+      {
+        "code" : "HIV.G.DE15",
+        "display" : "Dried blood spot specimen"
+      },
+      {
+        "code" : "HIV.G.DE16",
+        "display" : "Dried plasma spot from a plasma separation card"
+      }]
+    }]
+  }
+}

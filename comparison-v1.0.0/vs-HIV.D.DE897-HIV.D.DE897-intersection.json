@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-891",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-891",
+  "name" : "IntersectionHIVDDE897AndHIVDDE897",
+  "title" : "Intersection of WHO functional status ValueSet And WHO functional status ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE898",
+        "display" : "Working, able to perform usual work inside and outside the home"
+      },
+      {
+        "code" : "HIV.D.DE899",
+        "display" : "Ambulatory, able to perform activity of daily living (ADL), not able to work"
+      },
+      {
+        "code" : "HIV.D.DE900",
+        "display" : "Bedridden not able to perform ADL"
+      }]
+    }]
+  }
+}

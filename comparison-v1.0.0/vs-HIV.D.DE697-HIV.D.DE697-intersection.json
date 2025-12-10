@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-792",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-792",
+  "name" : "IntersectionHIVDDE697AndHIVDDE697",
+  "title" : "Intersection of Cervical cancer histopathology result ValueSet And Cervical cancer histopathology result ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE698",
+        "display" : "Normal"
+      },
+      {
+        "code" : "HIV.D.DE699",
+        "display" : "LSIL (inclusive of LSIL-CIN1)"
+      },
+      {
+        "code" : "HIV.D.DE700",
+        "display" : "HSIL (inclusive of HSIL-CIN2 or HSIL-CIN3)"
+      },
+      {
+        "code" : "HIV.D.DE701",
+        "display" : "Invasive cervical cancer"
+      }]
+    }]
+  }
+}

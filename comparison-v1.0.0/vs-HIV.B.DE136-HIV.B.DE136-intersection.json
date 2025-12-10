@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-354",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-354",
+  "name" : "IntersectionHIVBDE136AndHIVBDE136",
+  "title" : "Intersection of Partner HIV status (confirmed) ValueSet And Partner HIV status (confirmed) ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.B.DE137",
+        "display" : "HIV-positive"
+      },
+      {
+        "code" : "HIV.B.DE138",
+        "display" : "HIV-negative"
+      },
+      {
+        "code" : "HIV.B.DE139",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}

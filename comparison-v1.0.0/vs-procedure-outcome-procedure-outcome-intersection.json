@@ -1,0 +1,22 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-186",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-186",
+  "name" : "IntersectionProcedureOutcomeCodes(SNOMEDCT)AndProcedureOutcomeCodes(SNOMEDCT)",
+  "title" : "Intersection of Procedure Outcome Codes (SNOMED CT) And Procedure Outcome Codes (SNOMED CT)",
+  "status" : "draft",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "385669000"
+      },
+      {
+        "code" : "385671000"
+      },
+      {
+        "code" : "385670004"
+      }]
+    }]
+  }
+}

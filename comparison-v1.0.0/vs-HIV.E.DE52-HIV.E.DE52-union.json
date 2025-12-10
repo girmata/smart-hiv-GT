@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-1022",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-1022",
+  "name" : "UnionHIVEDE52AndHIVEDE52",
+  "title" : "Union of Delivery mode ValueSet And Delivery mode ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.E.DE53",
+        "display" : "Spontaneous vaginal delivery"
+      },
+      {
+        "code" : "HIV.E.DE54",
+        "display" : "Assisted vaginal delivery"
+      },
+      {
+        "code" : "HIV.E.DE55",
+        "display" : "Caesarian section (C/S, operative delivery)"
+      }]
+    }]
+  }
+}

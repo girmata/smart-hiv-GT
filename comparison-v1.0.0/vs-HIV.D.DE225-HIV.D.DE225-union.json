@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-623",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-623",
+  "name" : "UnionHIVDDE225AndHIVDDE225",
+  "title" : "Union of Treatment failure ValueSet And Treatment failure ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE226",
+        "display" : "Clinical failure"
+      },
+      {
+        "code" : "HIV.D.DE227",
+        "display" : "Immunological failure"
+      },
+      {
+        "code" : "HIV.D.DE228",
+        "display" : "Virological failure"
+      }]
+    }]
+  }
+}

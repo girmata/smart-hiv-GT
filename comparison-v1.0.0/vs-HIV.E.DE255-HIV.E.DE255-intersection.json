@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-1008",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-1008",
+  "name" : "IntersectionHIVEDE255AndHIVEDE255",
+  "title" : "Intersection of Asymptomatic bacteriuria (ASB) test result ValueSet And Asymptomatic bacteriuria (ASB) test result ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.E.DE256",
+        "display" : "Positive"
+      },
+      {
+        "code" : "HIV.E.DE257",
+        "display" : "Negative"
+      },
+      {
+        "code" : "HIV.E.DE258",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}

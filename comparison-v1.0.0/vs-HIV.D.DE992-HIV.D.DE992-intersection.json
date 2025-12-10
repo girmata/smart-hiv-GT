@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0a8d9408-6c1e-4301-ade4-7c5188396690-921",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0a8d9408-6c1e-4301-ade4-7c5188396690-921",
+  "name" : "IntersectionHIVDDE992AndHIVDDE992",
+  "title" : "Intersection of TB diagnostic test category ValueSet And TB diagnostic test category ValueSet",
+  "status" : "active",
+  "date" : "2025-12-10T09:29:00+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE993",
+        "display" : "LF-LAM"
+      },
+      {
+        "code" : "HIV.D.DE994",
+        "display" : "mWRD test for TB"
+      },
+      {
+        "code" : "HIV.D.DE995",
+        "display" : "Microscopy - Sputum acid-fast bacilli (AFB)"
+      },
+      {
+        "code" : "HIV.D.DE996",
+        "display" : "TB Culture"
+      }]
+    }]
+  }
+}
